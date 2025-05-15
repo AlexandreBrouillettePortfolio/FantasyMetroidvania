@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8691cf9b4969d14999d2ac5258de6b9, type: 3}
+  m_Name: TourParTourExplication
+  m_EditorClassIdentifier: 
+  DefaultNpcName: 
+  Steps:
+  - rid: 5302075072451969028
+  references:
+    version: 2
+    RefIds:
+    - rid: 5302075072451969028
+      type: {class: DialogEventStep, ns: , asm: Assembly-CSharp}
+      data:
+        DisplayLength: 1
+        Text: "Salut ! Prends mes bottes, elle donne un double saut. Je n'en ai plus
+          besoin. Elles sont dans mon coffre. Fais I pour ouvrir l'inventaire et
+          les \xE9quiper."
+        FromPlayer: 0
+        NpcName: Myriam

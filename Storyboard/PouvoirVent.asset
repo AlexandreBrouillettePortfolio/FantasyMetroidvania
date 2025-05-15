@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8691cf9b4969d14999d2ac5258de6b9, type: 3}
+  m_Name: PouvoirVent
+  m_EditorClassIdentifier: 
+  DefaultNpcName: 
+  Steps:
+  - rid: 5302075072451969028
+  references:
+    version: 2
+    RefIds:
+    - rid: 5302075072451969028
+      type: {class: DialogEventStep, ns: , asm: Assembly-CSharp}
+      data:
+        DisplayLength: 1
+        Text: "Attention ! Il y a des monstres en bas. Prend la pierre dans mon coffre
+          elle donne un pouvoir \xE9l\xE9mentaire de vent. Tu peux les voir dans
+          ton inventaire. Fais E pour changer de pouvoir et RIGHT CLICK pour que
+          ton pouvoir s'applique \xE0 ta grosse attaque."
+        FromPlayer: 0
+        NpcName: "G\xE9rard"
