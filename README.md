@@ -19,12 +19,12 @@ Here is a list of the visual and auditory assets used for the game:
 
 Guide to File Tree:
 
-Art: Contains the assets bought from other sources.
-Defi: Prototyping builds, used early in the development process to help define mechanics.
-Level: Contains prefabs for rooms used in scenes.
-Prefab: Contains all other prefabs, from the player to items.
-Scenes: Contains the scenes used by unity to create playable areas.
-Scripts: Contains the scripts used for the game, further subdivided by use-case:
+- Art: Contains the assets bought from other sources.
+- Defi: Prototyping builds, used early in the development process to help define mechanics.
+- Level: Contains prefabs for rooms used in scenes.
+- Prefab: Contains all other prefabs, from the player to items.
+- Scenes: Contains the scenes used by unity to create playable areas.
+- Scripts: Contains the scripts used for the game, further subdivided by use-case:
   - CombatSystems, Enemies, Inventory, Levels, Managers, Platform, Player, Storyboard, Traps
-Storyboard: Contains the first drafts of the dialogue and event text window assets.
-TextMeshPro: Contains files required to use the TextMeshPro object in Unity.
+- Storyboard: Contains the first drafts of the dialogue and event text window assets.
+- TextMeshPro: Contains files required to use the TextMeshPro object in Unity.
